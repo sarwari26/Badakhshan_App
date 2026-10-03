@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+database/*.db
+uploads/pending/*
+uploads/approved/*
+!uploads/pending/.gitkeep
+!uploads/approved/.gitkeep
